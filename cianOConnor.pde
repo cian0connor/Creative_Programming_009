@@ -1,4 +1,6 @@
-
+void setup() {
+  size(120, 120);
+}
 
 void draw() {
   if (mousePressed) {
