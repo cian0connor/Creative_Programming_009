@@ -4,9 +4,9 @@ void setup() {
 
 void draw() {
   if (mousePressed) {
-    fill(120);
+    fill(0);
   } else {
-    fill(255);
+    fill(80);
   }
   ellipse(mouseX, mouseY, 80, 80);
 }
